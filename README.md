@@ -1,4 +1,0 @@
-writelikeaman
-=============
-
-A blog
