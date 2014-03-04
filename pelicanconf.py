@@ -5,10 +5,12 @@ from __future__ import unicode_literals
 AUTHOR = u'ginjera'
 SITENAME = u'Write Like A Man'
 SITEURL = ''
-
 TIMEZONE = 'Asia/Singapore'
 
 DEFAULT_LANG = u'en'
+
+# Specify name of tleme installed via the pelican-themes command
+THEME = "notmyidea"
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -20,6 +22,7 @@ LINKS =  (('Pelican', 'http://getpelican.com/'),
           ('Python.org', 'http://python.org/'),
           ('Jinja2', 'http://jinja.pocoo.org/'),
           ('You can modify those links in your config file', '#'),)
+
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
